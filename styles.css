@@ -290,11 +290,7 @@ img { max-width: 100%; display: block; }
   [data-theme="light"] .nav-links { border-color: rgba(2,6,23,0.08); }
   .nav-links.open { display: flex; flex-direction: column; gap: 10px; }
   .menu-toggle { display: inline-flex; }
-  /* Mantener acciones visibles en móvil */
-  .actions { flex-wrap: wrap; gap: 8px; }
-  .actions a.btn, .actions button.btn { display: inline-flex; padding: 8px 10px; }
-  /* Compactar etiqueta del switch de tema para ahorrar espacio */
-  .theme-toggle .label { display: none; }
+  .actions a.btn, .actions button.btn { display: none; }
 }
 
 /* Grid/kpi responsiveness */
